@@ -1,0 +1,19 @@
+.bruja{
+transform: skew(20deg);
+}
+.dragon {
+    transform:scale(2,2);
+}
+.nomo {
+    transform: rotate(30deg);
+}
+.buenos {
+animation-name: left-right;
+animation-duration: 5s;
+position: relative;
+}
+
+@keyframes left-right {
+    0% {left:0px;}
+    100% {left:100px;}
+}
