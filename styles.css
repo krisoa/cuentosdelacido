@@ -1,9 +1,14 @@
 .bruja{
-    width: 70px;
-    height: auto;
-    transform: translate(0px,50px);
-    transform: skew(20deg);
+    width: 100px;
+    height: 100px;
+    transition-duration: 2s;
+    transform: skewX(0);
+  transform: skewY(0);
 }
+.bruja:hover {
+    transform: skewX(20deg);
+    transform: skewY(10deg);
+    }
 .dragon {
         width: 100px;
         height: 100px;
@@ -33,4 +38,65 @@ position: relative;
 @keyframes left-right {
     0% {left:0px;}
     100% {left:100px;}
+}
+.principe {
+    width: 50px;
+    height: auto;
+}
+.princesa{
+    width: 60px;
+    height: auto;
+}
+.rana{
+    width: 35px;
+    height: auto;
+}
+.madrina {
+    width: 45px;
+    height: auto;
+    
+}
+.castillo {
+    width: 100px;
+    height: 100px;
+   transform: rotate (-45deg);  
+    transition-duration: 2s;
+    animation-direction: reverse;
+    
+}
+.castillo:hover{
+    transform: rotate(45deg)
+}
+.espada {
+    width: 100px;
+    height: 100px;
+   transform: rotate (-45deg);  
+    transition-duration: 2s;
+    animation-direction: reverse;
+    
+}
+.espada:hover{
+    transform: rotate(45deg)
+}
+.lampara {
+    width: 100px;
+    height: 100px;
+   transform: rotate (-45deg);  
+    transition-duration: 2s;
+    animation-direction: reverse;
+    
+}
+.lampara:hover{
+    transform: rotate(45deg)
+}
+.manzana {
+    width: 100px;
+    height: 100px;
+   transform: rotate (-45deg);  
+    transition-duration: 2s;
+    animation-direction: reverse;
+    
+}
+.manzana:hover{
+    transform: rotate(45deg)
 }
