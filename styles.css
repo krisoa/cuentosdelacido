@@ -14,6 +14,7 @@
         height: 100px;
         transition-property: width, height;
         transition-duration: 2s;
+        
       }
 
 .dragon:hover {
@@ -24,6 +25,7 @@
     width: 100px;
     height: 100px;
     transition: transform 2s;
+
   }
 .nomo:hover {
    transform: rotate(360deg);
@@ -33,6 +35,8 @@
 animation-name: left-right;
 animation-duration: 5s;
 position: relative;
+animation-iteration-count: infinite;
+
 }
 
 @keyframes left-right {
@@ -100,3 +104,20 @@ position: relative;
 .manzana:hover{
     transform: rotate(45deg)
 }
+.psycoback {
+    background-color: rgb(68, 153, 68);
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    
+ 
+}
+@keyframes example {
+    0%   {background-color: rgb(184, 51, 51);}
+    25%  {background-color: rgb(224, 224, 49);}
+    50%  {background-color: rgb(57, 57, 230);}
+    100% {background-color: rgb(54, 180, 54);}
+  }
