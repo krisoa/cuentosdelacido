@@ -1,12 +1,29 @@
 .bruja{
-transform: skew(20deg);
+    width: 70px;
+    height: auto;
+    transform: translate(0px,50px);
+    transform: skew(20deg);
 }
 .dragon {
-    transform:scale(2,2);
-}
+        width: 100px;
+        height: 100px;
+        transition-property: width, height;
+        transition-duration: 2s;
+      }
+
+.dragon:hover {
+        width: 300px;
+        height: 300px;
+        }
 .nomo {
-    transform: rotate(30deg);
-}
+    width: 100px;
+    height: 100px;
+    transition: transform 2s;
+  }
+.nomo:hover {
+   transform: rotate(360deg);
+  }
+
 .buenos {
 animation-name: left-right;
 animation-duration: 5s;
